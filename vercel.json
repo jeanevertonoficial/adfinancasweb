@@ -6,7 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [],
   "env": {
     "DATABASE_JSON_PATH": "bd/database.json"
   },
@@ -16,8 +15,6 @@
     }
   },
   "hooks": {
-    "build": {
       "postbuild": "npm install && npm run bd &"
-    }
   }
 }
