@@ -1,0 +1,18 @@
+@import './base.css';
+@import "./reset.css";
+
+body {
+    font-family: Roboto, sans-serif;
+    background: var(--color-background-principal);
+}
+
+::-webkit-scrollbar {
+    width: 4px !important;
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 12px !important;
+    background: var(--color-bg-dourado) !important;
+}
+

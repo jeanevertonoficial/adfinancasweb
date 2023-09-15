@@ -1,0 +1,16 @@
+{
+    "tabela_colaboradores": [
+        {
+            "id": 1,
+            "nome": "Jean Everton Santos",
+            "valor": 50,
+            "nivel_acesso": "administrador"
+        },
+        {
+            "id": 2,
+            "nome": "Roderval",
+            "valor": 50,
+            "nivel_acesso": "administrador"
+        }
+    ]
+}
