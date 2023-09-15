@@ -6,8 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "bd": "json-server --watch bd/database.json",
-    "postinstall": "if [ \"$NODE_ENV\" = \"production\" ]; then npm run bd; fi"
+    "bd": "json-server --watch bd/database.json"
   },
   "dependencies": {
     "vue": "^3.3.4",
