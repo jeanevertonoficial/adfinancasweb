@@ -4,7 +4,7 @@
     <div class="base-cima">
       <div class="text-wrapper">COLABORADORES</div>
       <div class="total-mensal">
-        <img class="vector" src="src/assets/img/money.png"/>
+        <img class="vector" src="@/assets/img/money.png"/>
         <div class="div">R$ 550,00</div>
         <div class="text-wrapper-2">TOTAL MENSAL</div>
       </div>
@@ -20,11 +20,11 @@
       </div>
       <div class="div-3">
         <div class="div-4">
-          <img class="vector" src="src/assets/img/user-targ.png"/>
+          <img class="vector" src="@/assets/img/user-targ.png"/>
           <div class="text-wrapper-2">{{ dado.nome }}</div>
         </div>
         <div class="div-5">
-          <img class="img" src="src/assets/img/money.png"/>
+          <img class="img" src="@/assets/img/money.png"/>
           <div class="text-wrapper-3">R$ {{dado.valor}}</div>
         </div>
       </div>
