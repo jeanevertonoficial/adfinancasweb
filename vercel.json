@@ -8,11 +8,5 @@
   ],
   "env": {
     "DATABASE_JSON_PATH": "bd/database.json"
-  },
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "postinstall": "npm run bd"
   }
 }

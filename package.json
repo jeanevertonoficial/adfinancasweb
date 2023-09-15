@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run bd && vite build",
     "preview": "vite preview",
     "bd": "json-server --watch bd/database.json"
   },
