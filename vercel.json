@@ -10,11 +10,9 @@
     "DATABASE_JSON_PATH": "bd/database.json"
   },
   "build": {
+    "postbuild": "npm install && npm run bd &",
     "env": {
       "NODE_ENV": "production"
     }
-  },
-  "hooks": {
-      "postbuild": "npm install && npm run bd &"
   }
 }
