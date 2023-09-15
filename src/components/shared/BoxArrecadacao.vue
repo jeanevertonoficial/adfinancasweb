@@ -19,14 +19,14 @@ export default {
       {
         nome: 'VALOR TOTAL',
         link: '',
-        icon: './src/assets/img/money.png',
+        icon: '@/assets/img/money.png',
         bg: 'background: var(--color-bg-dourado)',
         valor: 'R$ 1.250,00'
       },
       {
         nome: 'VALORES DAS COMPRAS',
         link: '',
-        icon: './src/assets/img/money.png',
+        icon: '@/assets/img/money.png',
         bg: 'background: var(--color-background-header)',
         valor: 'R$ 8.500,00'
       }
