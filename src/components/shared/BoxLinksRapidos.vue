@@ -19,25 +19,25 @@ export default {
       {
         nome: 'EXPORTAR LISTAS',
         link: '/',
-        icon: '@/assets/img/exporta-link.png',
+        icon: '/src/assets/img/exporta-link.png',
         bg: 'background: var(--color-background-header)'
       },
       {
         nome: 'VALORES PENDENTES',
         link: '/',
-        icon: '@/assets/img/money.png',
+        icon: '/src/assets/img/money.png',
         bg: 'background: var(--color-background-header)'
       },
       {
         nome: 'OBJETIVOS',
         link: '/',
-        icon: '@/assets/img/objetivos-pagamento.png',
+        icon: '/src/assets/img/objetivos-pagamento.png',
         bg: 'background: var(--color-bg-dourado)'
       },
       {
         nome: 'LISTA DE PAGAMENTOS',
         link: '/Gerenciador-de-pagamentos',
-        icon: '@/assets/img/lista-pagamento-link.png',
+        icon: '/src/assets/img/lista-pagamento-link.png',
         bg: 'background: var(--color-bg-dourado)'
       },
     ]

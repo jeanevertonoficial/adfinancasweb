@@ -60,12 +60,14 @@ export default {
 }
 .box {
   position: relative;
+  max-width: 697px;
   width: 697px;
   height: 52px;
 }
 
 .box .linha-do-tempo {
-  width: 697px;
+  max-width: 697px;
+  width: 100%;
   height: 52px;
   top: 0;
   left: 0;
@@ -75,7 +77,8 @@ export default {
   top: 0;
   left: 47px;
   position: absolute;
-  width: 325px;
+  max-width: 325px;
+  width: 100%;
   height: 47px;
 }
 
@@ -109,14 +112,16 @@ export default {
 .box .overlap {
   left: 372px;
   position: absolute;
-  width: 325px;
+  width: 100%;
+  max-width: 325px;
   height: 47px;
 }
 
 .box .img {
   top: 19px;
   position: absolute;
-  width: 282px;
+  width: 100%;
+  max-width: 282px;
   height: 5px;
   left: 0;
 }
@@ -145,7 +150,8 @@ export default {
 
 
 .base-colaboraores {
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   margin: 15rem auto;
 }
 
@@ -204,5 +210,11 @@ export default {
   border-radius: 50px;
   background: #855A39;
   border: none;
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+  }
 }
 </style>
